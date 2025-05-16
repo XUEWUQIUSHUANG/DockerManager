@@ -1,0 +1,26 @@
+{
+  "name": "docker-manager",
+  "version": "1.0.0",
+  "description": "a logger for express router",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/XUEWUQIUSHUANG/DockerManager.git"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "homepage": "https://github.com/XUEWUQIUSHUANG/DockerManager",
+  "keywords": [
+    "docker",
+    "dockerode",
+    "docker-manager"
+  ],
+  "author": "XUEWUQIUSHUANG",
+  "license": "MIT",
+  "dependencies": {
+    "dockerode": "^4.0.6",
+    "init": "^0.1.2"
+  }
+}

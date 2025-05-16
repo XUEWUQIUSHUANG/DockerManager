@@ -1,6 +1,6 @@
 # Docker Manager
 
-一个简单的Node.js Docker容器管理工具，提供了方便的Docker容器生命周期管理API。
+一个基于 Node.js 的 Docker 容器管理工具，基于 [dockerode](https://github.com/apocas/dockerode) 封装，提供简单易用的 Docker 容器生命周期管理功能。
 
 ## 特性
 
@@ -89,3 +89,8 @@ await manager.stop();
 ## 许可证
 
 [MIT](LICENSE)
+
+## 相关链接
+
+- [dockerode 文档](https://github.com/apocas/dockerode)
+- [Docker Engine API](https://docs.docker.com/engine/api/v1.41/)
